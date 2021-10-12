@@ -195,6 +195,7 @@
             data: data,
             processData: false,
             contentType: false,
+	    crossDomain: true,
             success: function (data) {
               // localStorage.setItem('user', JSON.stringify(user));
                 window.localStorage.setItem('data', JSON.stringify(data));
